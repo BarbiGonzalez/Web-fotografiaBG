@@ -31,8 +31,8 @@ ul {
 }
 
 .tamañoDellogotipo {
-  width: 100px; /* Ajusta el tamaño del logo */
-  height: auto; /* Mantiene la proporción */
+  width: 100px;
+  height: auto;
 }
 
 .titulo {
@@ -55,18 +55,18 @@ ul {
 }
 
 .tamañoDeLasImagenes {
-  width: 300px; /* Ajusta el tamaño según necesites */
-  height: auto; /* Mantiene la proporción */
-  margin: 5px; /* Espaciado entre imágenes */
+  width: 300px;
+  height: auto;
+  margin: 5px;
   margin-left: 30px;
 }
 
 /* Contenedor que alinea las imágenes */
 .contenedor-imagenes {
   display: flex;
-  justify-content: center; /* Centra las imágenes */
-  flex-wrap: wrap; /* Permite que se ajusten en pantallas pequeñas */
-  gap: 10px; /* Espaciado entre imágenes */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .separador-100 {
