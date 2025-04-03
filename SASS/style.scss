@@ -1,4 +1,7 @@
-@import "node_modules/animate.css/animate.css";
+@use "opiniones";
+@use "card";
+
+@import "../node_modules/animate.css/animate.css";
 // Variables de colores
 $primary-color: #fabde7; // antiquewhite
 $secondary-color: #ebddcc; // beige
@@ -205,57 +208,6 @@ ul {
   }
 }
 
-.opiniones {
-  text-align: center;
-  padding: 50px;
-  background-image: url("../assets/images/naturaleza/naturaleza3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
-
-  h2 {
-    font-size: 2.5rem;
-    font-family: "Playfair Display", serif;
-    color: antiquewhite;
-  }
-
-  .subtitulo {
-    font-size: 1.2rem;
-    color: #f1e8e8;
-    margin-bottom: 30px;
-  }
-
-  .contenedor-opiniones {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    opacity: 0.8;
-  }
-
-  .opinion {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 400px;
-    text-align: left;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-
-    .estrellas {
-      font-size: 1.5rem;
-      color: rgb(8, 8, 8);
-    }
-
-    .autor {
-      font-weight: bold;
-      margin-top: 10px;
-      color: #555;
-    }
-  }
-}
-
 body {
   background-color: antiquewhite;
 }
@@ -287,20 +239,6 @@ footer {
     color: #f1e8e8;
     font-size: 25px;
   }
-}
-
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  .card-body {
-    background-color: $secondary-color;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  }
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .imagen-decorativa {
